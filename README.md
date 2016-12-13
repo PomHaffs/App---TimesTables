@@ -1,2 +1,7 @@
-# App---TimesTables
-Times tables helper with slider interface
+## App---TimesTables
+
+
+#Description:
+Basic single page timestables helper with slider interface displaying first 50 numbers in selected timestable.
+
+
