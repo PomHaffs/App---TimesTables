@@ -8,3 +8,4 @@ Basic single page timestables helper with slider interface displaying first 50 n
 #Covered:
 - Slider interface
 - TableView
+- Table.reloadData()
