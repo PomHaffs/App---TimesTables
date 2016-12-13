@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+
+
     @IBOutlet weak var currentNumber: UILabel!
     @IBOutlet weak var table: UITableView!
     
@@ -41,6 +43,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "Cell")
+        
+        cell.textLabel?.textAlignment = .center
         
         let answer = String(selectedNumber * indexPath.row)
         

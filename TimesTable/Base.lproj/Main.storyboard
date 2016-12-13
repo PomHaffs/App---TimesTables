@@ -44,7 +44,7 @@
                                     <constraint firstAttribute="height" constant="400" id="BVa-07-tJP"/>
                                 </constraints>
                                 <prototypes>
-                                    <tableViewCell hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="epF-st-ddf">
+                                    <tableViewCell hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationLevel="2" indentationWidth="10" reuseIdentifier="Cell" id="epF-st-ddf">
                                         <rect key="frame" x="0.0" y="28" width="343" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="epF-st-ddf" id="QfT-0i-52B">
